@@ -1,0 +1,687 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p.product{
+    margin: 0;
+    margin-bottom: 8px;
+    font-size: 18px;
+}
+
+p.price{
+    margin: 0;
+    margin-bottom: 8px;
+    font-size: 18px;
+}
+
+a.btn-buy{
+    margin: 0;
+    padding: 0;
+    padding: 11px 26px;
+    background: #2FA84B ;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/*SYSTEM GRID*/
+
+.container{
+    width: 1140px;
+    display: block;
+    margin: 0 auto;
+}
+
+div.col-1{
+    width: 62px;
+    display: block;
+    float:left;
+    margin-right: 36px;
+}
+
+div.col-2{
+    width: 160px;   
+    display: block;
+    float:left;
+    margin-right: 36px;
+}
+
+div.col-3{
+    width: 258px;
+    display: block;
+    float:left;
+    margin-right: 36px;
+}
+
+div.col-4{
+    width: 356px;
+    display: block;
+    float:left;
+    margin-right: 36px;
+}
+
+div.col-5{
+    width: 454px;
+    display: block;
+    float:left;
+    margin-right: 36px;
+}
+
+div.col-6{
+    width: 552px;
+    display: block;
+    float:left;
+    margin-right: 36px;
+}
+
+div.col-7{
+    width: 650px;
+    display: block;
+    float:left;
+    margin-right: 36px;
+}
+
+div.col-8{
+    width: 748px;
+    display: block;
+    float:left;
+    margin-right: 36px;
+}
+
+div.col-9{
+    width: 846px;
+    display: block;
+    float:left;
+    margin-right: 36px;
+}
+
+div.col-10{
+    width: 944px;
+    display: block;
+    float:left;
+    margin-right: 36px;
+}
+
+div.col-11{
+    width: 1042px;
+    display: block;
+    float:left;
+    margin-right: 36px;
+}
+
+div.col-12{
+    width: 1140px;
+    display: block;
+    float: left;
+}
+
+div.last-block{
+    margin-right: 0 !important;
+}
+
+div.last-column{
+    margin-right: 0 !important;
+
+}
+
+/*END SYSTEM GRID*/
+
+header{
+    display: block;
+    width: 100%;
+    float: left;
+    background: #373737;
+    margin-bottom: 30px;
+}
+
+header h1#logo{
+    text-align: center;
+    margin: 0;
+}
+
+header h1#logo img{
+    width: 160px;
+    height: 40px;
+}
+
+header div#slogan{
+    margin: 0;
+    margin-top: 30px ;
+    margin-bottom: 30px;
+}
+
+header h2{
+    text-align: center;
+    margin: 0;
+    color: #b4b3b3;
+}
+ 
+header nav{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+header nav ul{
+    text-align: center;
+}
+
+header nav ul li{
+    display: inline-block;
+    margin-right: 36px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: #b4b3b3;
+}
+
+header nav ul li a:hover{
+    color: #ffffff;
+}
+
+section#luminarias{
+    width: 100%;
+    float: left;
+    display: block;
+    margin-bottom: 30px;
+}
+
+section#luminarias h2{
+    margin: 0;
+    margin-bottom:30px;
+    font-weight: normal;
+    color: #373737;
+}
+
+section#luminarias img{
+    width: 100%;
+    height: 534px;
+}
+
+
+section#luminarias div.btn{
+    float:left;
+    display: block;
+    margin-left: 88px;
+    width: 180px;
+    margin-top: 30px;
+}
+
+section#luminarias div.btn img.cart{
+    background: #2FA84B;
+    float: left;
+    height: 50px;
+    width: 50.28px;
+}
+
+section#luminarias div.btn p{
+    margin: 0;
+    padding: 0;
+    font-size:21px ;
+    margin-top: 13px;
+    float: left;
+}
+
+footer{
+    width: 100%;
+    display: block;
+    float: left;
+    background: #373737;
+}
+
+footer h3{
+    text-align: center;
+    color: #ffffff;
+    font-weight: normal;
+    margin-bottom: 30px ;
+    margin-top: 30px;
+}
+
+footer h4{
+    text-align: center;
+    color: #ffffff;
+    font-weight: normal;
+    margin-bottom: 30px ;
+}
+
+footer p{
+    text-align: center;
+    margin-bottom: 30px ;
+}
+
+footer p img{
+    margin-right: 36px;
+}
+
+footer p img#u{
+    margin-right: 0;
+}
+
+.last-block{
+    margin-right: 0 !important;
+}
+
+@media (max-width: 767px){
+
+    header nav{
+        text-align: center;
+    }
+
+    header nav ul li{
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    section#luminarias img{
+        margin-bottom: 30px ;
+    }
+
+    section#luminarias .last-block img {
+        margin-bottom: 0 ;
+    }
+
+    section#luminarias div.btn{
+    margin-left: 25%;
+    }
+
+    .container{
+        width: 98%;
+    }
+
+    div.col-1{
+        width: 100%;
+        margin-right: 0;
+    }    
+    
+    div.col-2{
+        width: 100%;
+        margin-right: 0;   
+    }
+    
+    div.col-3{
+        width: 100%;
+        margin-right: 0;
+    }
+    
+    div.col-4{
+        width: 100%;
+        margin-right: 0;
+    }
+    
+    div.col-5{
+        width: 100%;
+        margin-right: 0;
+    }
+    
+    div.col-6{
+        width: 100%;
+        margin-right: 0;
+    }
+    
+    div.col-7{
+        width: 100%;
+        margin-right: 0;
+    }
+    
+    div.col-8{
+        width: 100%;
+        margin-right: 0;
+    }
+    
+    div.col-9{
+        width: 100%;
+        margin-right: 0;
+    }
+    
+    div.col-10{
+        width: 100%;
+        margin-right: 0;
+    }
+    
+    div.col-11{
+        width: 100%;
+        margin-right: 0;
+    }
+    
+    div.col-12{
+        width: 100%;
+        margin-right: 0;
+    }
+
+}
+
+@media (min-width: 768px) {
+
+    a.btn-buy{
+        padding: 5px 10px;
+    }
+
+    section#luminarias img{
+        width: 100%;
+        height: 325px;
+    }
+    
+    section#luminarias div.btn{
+        margin-left: 41.5px;
+        width: 133px;
+        margin-top: 29px;
+    }
+    
+    section#luminarias div.btn img.cart{
+        height: 37px;
+        width: 37px;
+    }
+    
+    section#luminarias div.btn p{
+        font-size:20px ;
+        margin-top: 7px;
+    }
+
+    .container{
+        width: 720px;    
+    }
+
+    div.col-1{
+        width: 27px;
+    }    
+    
+    div.col-2{
+        width: 90px;   
+    }
+    
+    div.col-3{
+        width: 153px;
+    }
+    
+    div.col-4{
+        width: 216px;
+    }
+    
+    div.col-5{
+        width: 279px;
+    }
+    
+    div.col-6{
+        width: 342px;
+    }
+    
+    div.col-7{
+        width: 405px;
+    }
+    
+    div.col-8{
+        width: 468px;
+    }
+    
+    div.col-9{
+        width: 531px;
+    }
+    
+    div.col-10{
+        width: 594px;
+    }
+    
+    div.col-11{
+        width: 657px;
+    }
+    
+    div.col-12{
+        width: 720px;
+    }
+}
+
+@media (min-width: 992px) {   
+
+    a.btn-buy{
+        padding: 5px 10px;
+    }
+
+    section#luminarias img{
+        width: 100%;
+        height: 445px;
+    }
+
+    section#luminarias div.btn{
+        margin-left: 81.5px;
+        width: 133px;
+    }
+
+    section#luminarias div.btn img.cart{
+        margin-top: 0;
+        height: 37px;
+        width: 36px;
+    }
+    
+    section#luminarias div.btn p{
+        font-size:20px ;
+        margin-top: 7px;
+    }
+
+    .container{
+        width: 960px;    
+    }
+
+    div.col-1{
+        width: 47px;
+    }    
+    
+    div.col-2{
+        width: 130px;   
+    }
+    
+    div.col-3{
+        width: 213px;
+    }
+    
+    div.col-4{
+        width: 296px;
+    }
+    
+    div.col-5{
+        width: 379px;
+    }
+    
+    div.col-6{
+        width: 462px;
+    }
+    
+    div.col-7{
+        width: 545px;
+    }
+    
+    div.col-8{
+        width: 628px;
+    }
+    
+    div.col-9{
+        width: 711px;
+    }
+    
+    div.col-10{
+        width: 794px;
+    }
+    
+    div.col-11{
+        width: 877px;
+    }
+    
+    div.col-12{
+        width: 960px;
+    }
+}
+
+@media (min-width: 1200px){
+
+    a.btn-buy{
+        margin: 0;
+        padding: 0;
+        padding: 11px 26px;
+        background: #2FA84B ;
+        color: #ffffff;
+        text-decoration: none;
+    }
+
+    section#luminarias img{
+        width: 100%;
+        height: 535px;
+    }
+    
+    section#luminarias div.btn{
+        margin-left: 88px;
+        width: 180px;
+        margin-top: 30px;
+    }
+    
+    section#luminarias div.btn img.cart{
+        height: 50px;
+        width: 50.28px;
+    }
+    
+    section#luminarias div.btn p{
+        font-size:21px ;
+        margin-top: 13px;
+    }
+
+    .container{
+        width: 1140px;
+    }
+
+    div.col-1{
+        width: 62px;
+    }
+    
+    div.col-2{
+        width: 160px;   
+    }
+    
+    div.col-3{
+        width: 258px;
+    }
+    
+    div.col-4{
+        width: 356px;
+    }    
+    
+    div.col-5{
+        width: 454px;
+    }
+    
+    div.col-6{
+        width: 552px;
+    }
+    
+    div.col-7{
+        width: 650px;
+    }
+    
+    div.col-8{
+        width: 748px;
+    }
+    
+    div.col-9{
+        width: 846px;
+
+    }
+    
+    div.col-10{
+        width: 944px;
+    }
+    
+    div.col-11{
+        width: 1042px;
+    }
+    
+    div.col-12{
+        width: 1140px;
+    }
+}
+
+@media (min-width: 1400px) {
+    
+    a.btn-buy{
+        padding: 11px 26px;
+    }
+
+    section#luminarias img{
+        width: 100%;
+        height: 625;
+    }
+
+    section#luminarias p.product{
+        font-size:20px ;
+    }
+
+    section#luminarias p.price{
+        font-size:20px ;
+    }
+
+    
+
+
+    section#luminarias div.btn{
+        margin-left: 118px;
+        width: 180px;
+        margin-top: 29px;
+    }
+    
+    section#luminarias div.btn img.cart{
+        height: 50px;
+        width: 50.28px;
+    }
+    
+    section#luminarias div.btn p{
+        font-size:21px;
+        margin-top: 13px;
+    }
+    
+    .container{
+        width: 1320px;    
+    }
+
+    div.col-1{
+        width: 77px;
+    }    
+    
+    div.col-2{
+        width: 190px;   
+    }
+    
+    div.col-3{
+        width: 303px;
+    }
+    
+    div.col-4{
+        width: 416px;
+    }
+    
+    div.col-5{
+        width: 529px;
+    }
+    
+    div.col-6{
+        width: 642px;
+    }
+    
+    div.col-7{
+        width: 775px;
+    }
+    
+    div.col-8{
+        width: 868px;
+    }
+    
+    div.col-9{
+        width: 981px;
+    }
+    
+    div.col-10{
+        width: 1094px;
+    }
+    
+    div.col-11{
+        width: 1207px;
+    }
+    
+    div.col-12{
+        width: 1320px;
+    }
+}
